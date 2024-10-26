@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/demo.css" />
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro|Raleway|Droid+Sans|' rel='stylesheet'
+    type='text/css'>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+
+  <!-- jQuery library (served from Google) -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <!-- bxSlider Javascript file -->
+  <script src="js/jquery.bxslider.min.js"></script>
+  <!-- bxSlider CSS file -->
+  <link href="css/jquery.bxslider.css" rel="stylesheet" />
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('.bxslider').bxSlider();
+    });
+  </script>
+  <script src="js/menu.js"></script>
+
+
+</head>
+
+<body>
+
+  <div id="header">
+    <div class="headbloc">
+      <div class="registr">
+        <div class="row">
+          <div class="col-xs-6">
+            <div class="mod-languageslangClear">
+              <form name="lang" method="post" action="">
+                <select class="inputbox" onchange="document.location.replace(this.value);">
+                  <option dir="ltr" value="/en_gb/">
+                    EN</option>
+                  <option dir="ltr" value="/kg/">
+                    KG</option>
+                  <option dir="ltr" value="/ru/">
+                    RU </option>
+                </select>
+              </form>
+            </div>
+          </div>
+
+          <div class="col-xs-6">
+            <div class="login">
+              <a class="ac" href="#">Create Account</a><span class="line">|</span><a class="lg" href="#">Login</a>
+            </div>
+            <div class="search">
+              <form id="demo-2">
+                <input type="search" placeholder="Search...">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div> <!--registr-->
+    </div>
+    <div class="menu">
+
+      <!--logo-->
+      <div class="logo">
+        <a href="#"><img src="images/logo.png" style="width:auto;height:auto;"></a>
+      </div>
+      <!-- -->
+
+      <a href="#" id="touch-menu">Menu</a>
+      <nav>
+        <ul class="nav clearfix">
+          <li><a class="link-1" href="#">Why PlagChecker</a></li>
+          <li><a class="link-1" href="#">What We Offer</a></li>
+          <li><a class="link-1" href="#">Resources </a></li>
+          <li><a class="link-1" href="#">Support</a></li>
+          <li><a class="link-1" href="#">Community</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div><!--headblock-->
+
+  <div id="content">
+    <!-- *************** Slider ***********************-->
+    <ul class="bxslider">
+      <li><img src="images/slide/1.jpg" /></li>
+      <li><img src="images/slide/3.jpg" /></li>
+    </ul>
+
+    <!--  ********************* Эффект появления блоков *********************** -->
+    <div id="cbp-so-scroller" class="cbp-so-scroller">
+      <section class="cbp-so-section">
+        <article class="cbp-so-side cbp-so-side-left">
+          <h2>Critical thinking </h2>
+          <p>PlagChecker gives motivation, to be creative.</p>
+          <!-- <p> PlagChecker способствует к развитию критичного мышления и выполняя работу оригинальной.</p> -->
+
+        </article>
+        <figure class="cbp-so-side cbp-so-side-right">
+          <img src="images/2.png" alt="img01">
+        </figure>
+      </section>
+      <section class="cbp-so-section">
+        <figure class="cbp-so-side cbp-so-side-left">
+          <img src="images/1.png" alt="img01">
+        </figure>
+        <article class="cbp-so-side cbp-so-side-right">
+          <h2>Optimized work</h2>
+          <p>PlagChecker makes easier to check and research students work to teachers. </p>
+          <!--  <p>PlagChecker облегчает работу учителям, проверять научные труды.</p> -->
+        </article>
+      </section>
+      <section class="cbp-so-section">
+        <article class="cbp-so-side cbp-so-side-left">
+          <h2>Amazing Result</h2>
+          <p>PlagChecker shows improved results.</p>
+          <!-- <p>PlagChecker показывает результаты прогресса.</p>  -->
+        </article>
+        <figure class="cbp-so-side cbp-so-side-right">
+          <img src="images/3.png" alt="img01">
+        </figure>
+      </section>
+
+    </div>
+
+    <script src="js/classie.js"></script>
+    <script src="js/cbpScroller.js"></script>
+    <script>
+      new cbpScroller(document.getElementById('cbp-so-scroller'));
+    </script>
+  </div><!--Content -->
+
+
+  <!-- ***************************** footer************************************************* -->
+  <div id="footer">
+    <div class="soc_foot">
+      <div class="row">
+        <div class="col-xs-6 col-sm-3">
+
+          <div class="ft2">
+            <ul>
+              <span class="ft1">Training</span>
+              <li>Getting Started</li>
+              <li>Administrator Training</li>
+              <li>Student Training</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-3">
+          <ul>
+            <span class="ft1">Purchase information</span>
+            <a href="#">
+              <li>More details</li>
+            </a>
+          </ul>
+        </div>
+        <div class="clearfix visible-xs"></div>
+        <div class="col-xs-6 col-sm-3">
+          <ul>
+            <span class="ft1">Stay Connected</span>
+            <li><i class="fa fa-facebook-official fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/"
+                target="_blank">Facebook</a></i></li>
+            <li><i class="fa fa-vk fa-2x"></i>&nbsp;&nbsp;<a href="http://vk.com" target="_blank">Vkontakte</a></i></li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-sm-3">
+          <ul>
+            <span class="ft1">Contact</span>
+            <li><i class="fa fa-phone-square  fa-2x"></i>&nbsp; (+996) 111 222 333&nbsp;&nbsp;&nbsp;</li>
+            <li><i class="fa fa-envelope  fa-2x"></i>&nbsp; <a
+                href="mailto:example@mail.com">example@mail.com</a>&nbsp;&nbsp;&nbsp;</li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <h5 class="autor">Copyright © ITusta.kg 2015 All rights reserved. </h5>
+    </div>
+  </div>
+  <!-- ****************************** end footer *********************************************** -->
+
+  <!-- *****************************  Up btn *************************************************** -->
+  <a href="#" id="toTop"><img src="images/up.png" border="0" align="absmiddle" /></a>
+  <script src="http://ageta.ru/js/toTop.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    $(function () {
+      $("#toTop").scrollToTop();
+    }); 
+  </script>
+  <script type="text/javascript">
+    $(function () { $.fn.scrollToTop = function () { $(this).hide().removeAttr("href"); if ($(window).scrollTop() != "0") { $(this).fadeIn("slow") } var scrollDiv = $(this); $(window).scroll(function () { if ($(window).scrollTop() == "0") { $(scrollDiv).fadeOut("slow") } else { $(scrollDiv).fadeIn("slow") } }); $(this).click(function () { $("html, body").animate({ scrollTop: 0 }, "slow") }) } });
+  </script>
+  <!-- *****************************  Up btn *************************************************** -->
+</body>
+
+</html>

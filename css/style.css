@@ -1,0 +1,329 @@
+*{
+  margin: 0px;
+  padding: 0px;
+ }
+ 
+body
+{
+	background: #fff;
+}
+
+
+.headblock
+{
+  height: 85px;
+  background: #fff; 
+
+}
+
+#content
+{
+  z-index: 3;
+}
+.logo
+{
+	
+	  float: left;
+    height: auto;
+    margin-left: 10px;   
+
+}
+
+
+#content
+{
+	height: auto;
+	width: auto;
+}
+.registr
+{
+  width: 100%;
+  height: 41px;
+  background: #F2F2F2;
+}
+.line2
+{
+  border-radius: 10px;
+  margin-top: 30px;
+  width: 100%;
+  height: 2px;
+  background: #512;
+}
+
+.ln3
+{
+      height: 120px;
+}
+/**********************************************************/
+.Service
+{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.per_time
+{
+  padding-bottom: 30px;
+}
+.Pricing
+{ 
+  padding-top: 50px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.service-box
+{
+  text-align: center;
+}
+.pr li
+{
+  text-align: center;
+  list-style: none;
+}
+.pr ul,h3
+{
+  text-align: center;
+}
+.cost
+{
+ text-align: center; 
+}
+.pay_button
+{
+  text-align: center;
+  text-decoration: none;
+}
+.pay_button a
+{ 
+  text-decoration: none;
+  border-radius: 6px;
+  color: #fff;
+  padding: 10px 40px 10px 40px;
+  height: 20px;
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b8e1fc+0,a9d2f3+10,90bae4+25,90bcea+37,90bff0+50,6ba8e5+51,a2daf5+83,bdf3fd+100;Blue+Gloss+%231 */
+background: #b8e1fc; /* Old browsers */
+background: -moz-linear-gradient(top,  #b8e1fc 0%, #a9d2f3 10%, #90bae4 25%, #90bcea 37%, #90bff0 50%, #6ba8e5 51%, #a2daf5 83%, #bdf3fd 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b8e1fc), color-stop(10%,#a9d2f3), color-stop(25%,#90bae4), color-stop(37%,#90bcea), color-stop(50%,#90bff0), color-stop(51%,#6ba8e5), color-stop(83%,#a2daf5), color-stop(100%,#bdf3fd)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #b8e1fc 0%,#a9d2f3 10%,#90bae4 25%,#90bcea 37%,#90bff0 50%,#6ba8e5 51%,#a2daf5 83%,#bdf3fd 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #b8e1fc 0%,#a9d2f3 10%,#90bae4 25%,#90bcea 37%,#90bff0 50%,#6ba8e5 51%,#a2daf5 83%,#bdf3fd 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #b8e1fc 0%,#a9d2f3 10%,#90bae4 25%,#90bcea 37%,#90bff0 50%,#6ba8e5 51%,#a2daf5 83%,#bdf3fd 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #b8e1fc 0%,#a9d2f3 10%,#90bae4 25%,#90bcea 37%,#90bff0 50%,#6ba8e5 51%,#a2daf5 83%,#bdf3fd 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8e1fc', endColorstr='#bdf3fd',GradientType=0 ); /* IE6-9 */
+
+}
+.pay_button a:hover{
+list-style: none;
+text-decoration: none;
+}
+/*******************Локализация*********************/
+.mod-languageslangClear
+{
+
+}
+
+.inputbox
+{
+    background-color: rgba(255, 255, 255, 0.06);
+    border: none;
+    margin-top: 10px;
+    font-family: monospace;
+}
+/***************************************************/
+
+/*******************Поиск***************************/
+input {
+  outline: none;
+}
+input[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  font-family: inherit;
+  font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+  display: none; 
+}
+
+
+input[type=search] {
+  background: #F2F2F2 url(http://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+  border: none;
+  padding: 10px 10px 9px 32px;
+  width: 110px;
+  -webkit-border-radius: 10em;
+  -moz-border-radius: 10em;
+  border-radius: 10em;
+  
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+input[type=search]:focus {
+  width: 150px;
+  background-color: #fff; 
+
+}
+
+
+input:-moz-placeholder {
+  color: #999;
+}
+input::-webkit-input-placeholder {
+  color: #999;
+}
+
+#demo-2
+{float: right;}
+/***************************************************/
+/*******************Login***************************/
+.login
+{
+  float: right;
+  margin-top: 10px;
+  padding-right: 20px; 
+  padding-left: 10px;
+}
+.line
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/****************************************************/
+/*********************Menu***************************/
+.menu
+{
+
+}
+.nav,#touch-menu
+{
+  background-color: #fff;
+
+}
+
+.nav li
+{
+  float: right;
+}
+
+.nav li a,
+#touch-menu
+{
+  font-family: sans-serif;
+  display: block;
+  padding: 10px 15px;
+  font-size: 14px;
+
+  color: black;
+}
+.nav li a:hover
+{
+	background: none;
+}
+
+#touch-menu
+{
+	display: none;
+  height: 87px;
+  padding-top: 33px;
+  text-align: center;
+}
+.login
+{
+  font-size: 15px;
+}
+
+@media (max-width: 900px){
+ .nav{display: none;}
+ .nav li {float: none;}
+ .nav li a {color: #666; border-top:1px solid #eee; background-color: #fff;  text-align: center;  padding: 12px 20px!important;} 
+   
+ #touch-menu{display: block;}
+}
+
+@media (max-width: 720px){
+.search{ display: none;}
+.login{display: none;}
+  }
+}
+}
+
+
+@media (min-width: 420px){
+.ac,.lg
+{
+ font-size: 0.1pt; 
+}
+
+}
+
+
+/*******************************************************/
+/*******************footer*******************************/
+#footer
+{
+ background:  #F2F2F2;
+}
+.soc_foot
+{
+  text-align: center;
+  background: #F2F2F2;
+}
+
+.ft1
+{
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+.ft2
+{
+}
+.soc_foot ul
+{
+    text-align: justify;
+    padding: 15p;
+    padding: 5px 5px;
+}
+.soc_foot ul li
+{
+text-decoration: none;
+list-style: none;
+}
+.autor
+{
+  text-align: left;
+  padding-top: 15px;
+  padding-left: 20px;
+  background: #F2F2F2;
+}
+.plag
+{
+    color: #3137CB;
+    font-weight: bold;
+}
+.checker
+{
+   font-weight: bold;
+    color: #EB042E;
+}
+.lgfoot
+{
+ margin-left: 20px; 
+}
+
+/********************************************************/
+
+/********************* Up btn ***************************/
+#toTop { 
+            position: fixed; 
+            bottom: 20px; 
+            right: 2px; 
+            background: none; 
+            cursor: pointer;}
+
+
+/********************************************************/
